@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #252B42;
+    color: #fff;
+    height: 58px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header h6{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header img{
+    padding-right: 5px;
+}
+
+.sosmed{
+    display: flex;
+    align-items: center;
+}
+
+.sosmed-icon{
+    padding-left: 10px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item a{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.navbar{
+    height: 70px;
+}
+
+.hero{
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.hero h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.hero h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.hero h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2;
+}
+
+.hero button{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    background-color: #2DC071;
+    border: none;
+}
+
+.hero .button-position{
+    margin-top: 30px;
+}
