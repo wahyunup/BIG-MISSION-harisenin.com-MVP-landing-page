@@ -53,9 +53,10 @@ body{
 .hero{
     position: absolute;
     z-index: 1;
-    margin-top: 230px;
-    margin-left: 200px;
+    margin-top: 400px;
+    margin-left: 300px;
     color: #fff;
+
 }
 
 .hero h5{
@@ -87,8 +88,34 @@ body{
     text-align: center;
     background-color: #2DC071;
     border: none;
+    padding: 15px 40px 15px 40px;
 }
 
 .hero .button-position{
     margin-top: 30px;
+}
+
+.login{
+    display: inline;
+}
+
+.login a{
+    text-decoration: none;
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+.login img{
+    padding-right: 15px ;
+}
+
+@media screen and (max-width:1080px){
+    .hero{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 150px;
+    }
 }
