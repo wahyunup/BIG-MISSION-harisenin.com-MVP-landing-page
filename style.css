@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    height: auto;
 }
 
 .header{
@@ -110,6 +111,24 @@ body{
 
 .login img{
     padding-right: 15px ;
+}
+
+.footer{
+    background-color: #252B42;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.footer svg{
+    width: 25px;
+}
+
+.footer p{
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:1080px){
